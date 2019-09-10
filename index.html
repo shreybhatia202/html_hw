@@ -1,1 +1,121 @@
-<h2> hello </h2>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Latitude</title>
+  </head>
+<body>
+        <div class="container-fluid bg-info">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                 <a class="navbar-brand" href="file:///Users/shreybhatia/Documents/UofTData/Class/Master_Repo/11-HTML/Homework/Instructions/landing-page.html"><strong>Latitude</strong></a>
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="navbarNav">
+                   <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                           <div class="dropdown">
+                             <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               Plots
+                             </a>
+       
+                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                               <a class="dropdown-item" href="Visualization_1.html">Latitude v Temperature</a>
+                               <a class="dropdown-item" href="Visualization_2.html">Latitude v Humidity</a>
+                               <a class="dropdown-item" href="Visualization_3.html">Latitude v Cloudiness</a>
+                               <a class="dropdown-item" href="Visualization_4.html">Latitude v Wind Speed</a>
+                             </div>
+                           </div>
+                     </li>
+                     <li class="nav-item active">
+                       <a class="nav-link" href="Comparison.html">Comparison <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item active">
+                       <a class="nav-link" href="data.html">Data</a>
+                     </li>
+                   </ul>
+                 </div>
+               </nav>
+           <div class="content">
+           <div class="container-fluid">
+           <div class="row">
+             <div class="col-lg-7 col-sm-12 md-4">
+                     <h2><strong>Summary: Latitude vs X</strong></h2>
+                     <div class="box">
+                       <article class="row single-post no-gutters">
+                           <div>
+                               <div class="image-wrapper float-left pr-3">
+                                   <img src="file:///Users/shreybhatia/Documents/UofTData/Class/Master_Repo/11-HTML/Homework/Instructions/Resources/assets/images/Fig1.png" alt="Image: Latitude vs Temperature" width = "450" height="250">
+                               </div>
+                               <div class="single-post-content-wrapper">
+                                   <p>The purpose of this project was to analyze how weather changes as you get closer to the equater. To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities.</p>
+                                   <br>
+                                   <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather v. latitude. Factors we looked at included:temperature, cloudiness, windspeed, and humidity. This site provides the source data and visualizations created as part of the analysis,as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                               </div>
+                           </div>
+                       </article>
+                   </div>	  
+             </div>
+             <div class="col-lg-5 col-sm-12 px-2 md-4">
+                 <h2><strong>Visualization</strong></h2>
+                 <div class="row">
+                     <div class="col-lg-5">
+                           <div class="image-wrapper float-left">
+                               <a href="Visualization_1.html"><img src="Resources/assets/images/Fig1.png" alt="Image: Latitude vs Temperature" width = "180" height="180"></a>
+                           </div></p>
+                      </div>
+                      <div class="col-lg-1">
+                          <br>
+                      </div>
+                      <div class ="col-lg-5">
+                              <div class="image-wrapper float-left">
+                               <a href="Visualization_2.html"><img src="Resources/assets/images/Fig2.png" alt="Image: Latitude vs Humidity" width = "180" height="180"></a>
+                           </div></p>
+                      </div>
+                      <div class="col-lg-1">
+                          <br>
+                      </div>
+                  </div>
+                 <div class="row">
+                     <br>
+                                 
+                 </div>
+       
+                 <div class="row">
+                     <div class="col-lg-5 md-4">
+                              <div class="image-wrapper float-left">
+                               <a href="Visualization_3.html"><img src="Resources/assets/images/Fig3.png" alt="Image: Latitude vs Cloudiness" width = "180" height="180"></a>
+                           </div></p>
+                      </div>
+                      <div class="col-lg-1 md-4">
+                          <br>
+                      </div>
+                      <div class ="col-lg-5 md-4">
+                              <div class="image-wrapper float-left">
+                               <a href="Visualization_4.html"><img src="Resources/assets/images/Fig4.png" alt="Image: Latitude vs Wind Speed" width = "180" height="180"></a>
+                           </div></p>
+                      </div>
+                      <div class="col-lg-1 md-4">
+                          <br>
+                      </div>
+                  </div>
+             </div>
+           </div>
+             </div>
+         </div>
+         </div>
+           <div class ="jumbotron">
+           </div>
+           <!-- Optional JavaScript -->
+           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+         </body>
+       </html>
